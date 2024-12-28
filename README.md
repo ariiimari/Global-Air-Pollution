@@ -71,6 +71,7 @@ maxaqi['Country'].value_counts()
 ```
 
 ### Results/Findings
+
 1. Particulate Matter (2.5) values are highly correlated with AQI values.
 2. PM2.5 values are highly variable in comparison to the pollutants of the dataset. Ozone is the second most variable. The lack of variability in NO2 and CO made it difficult to determine if any regions are suffering more than others from high concentrations of NO2 and CO.
 3. Support Vector Machine and Neural Networks are promising models for classifying AQI value data into AQI categories but have room for improvement.
@@ -85,5 +86,9 @@ Based on the analysis I recommend:
 - Attempting another resampling method on the data and refining the data models, particularly SVM, to address potential overfitting.
 
 ### Limitations
+
 I had to remove a small percentage (less than 2%) of records because there were missing values in the country column which would have little value in the analysis considering the global scope of the dataset. Additionally, I removed the data for the Republic of Korea because there was only one recorded AQI value which was very high in comparison to the rest of the data.
+
+### References
+
 
