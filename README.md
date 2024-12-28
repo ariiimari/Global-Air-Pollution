@@ -85,5 +85,5 @@ Based on the analysis I recommend:
 - Attempting another resampling method on the data and refining the data models, particularly SVM, to address potential overfitting.
 
 ### Limitations
-I had to remove a small percentage (less than 2%) of records because there were missing values in the country column which would have little value in the analysis considering the global scope of the dataset. Additionally, I removed the one 
+I had to remove a small percentage (less than 2%) of records because there were missing values in the country column which would have little value in the analysis considering the global scope of the dataset. Additionally, I removed the data for the Republic of Korea because there was only one recorded AQI value which was very high in comparison to the rest of the data.
 
